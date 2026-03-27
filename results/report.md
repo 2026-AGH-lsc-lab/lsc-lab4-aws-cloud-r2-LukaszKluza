@@ -171,10 +171,10 @@ $\text{Cost} = \$1.674 + \$6.669 = \mathbf{\$8.34}$
 To determine the point where Lambda's pay-per-use model becomes more expensive than Fargate's flat monthly rate (\$8.86/mo), we solve for $R$ (total monthly requests):
 
 **1. General Equation:**
-$$\text{Cost}_{\text{Lambda}} = R \times \left( \frac{\$0.20}{1,000,000} + (0.095 \times 0.5 \times \$0.0000166667) \right)$$
+$$\text{Cost}_{\text{Lambda}} = R \times \left( \frac{\$0.20}{1,000,000} + (0.095 \times 0.5 \times 0.0000166667) \right)$$
 
 **2. Algebra Step-by-Step:**
-$$8.86 = R \times (\$0.0000002 + \$0.0000007916)$$
+$$8.86 = R \times (0.0000002 + 0.0000007916)$$
 $$R \approx \mathbf{8,935,054 \text{ requests/month}}$$
 
 **3. Conversion to Average RPS (Requests Per Second):**
