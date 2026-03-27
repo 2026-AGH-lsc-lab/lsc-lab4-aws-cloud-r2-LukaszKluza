@@ -174,8 +174,9 @@ To determine the point where Lambda's pay-per-use model becomes more expensive t
 $$\text{Cost}_{\text{Lambda}} = R \times \left( \frac{\$0.20}{1,000,000} + (0.095 \times 0.5 \times \$0.0000166667) \right)$$
 
 **2. Algebra Step-by-Step:**
-$$8.86\$ = R \times (\$0.0000002 + \$0.0000007916)$$
-$$R = \mathbf{8,935,054 \text{ requests/month}}$$
+$$\$8.86 = R \times (\$0.0000002 + \$0.0000007916)$$
+$$\$8.86 = R \times \$0.0000009916$$
+$$R \approx \mathbf{8,935,054 \text{ requests/month}}$$
 
 **3. Conversion to Average RPS (Requests Per Second):**
 To find the continuous traffic level required to reach this volume:
